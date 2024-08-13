@@ -1,0 +1,21 @@
+{
+  "name": "server2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js dot"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "crypto-js": "^4.2.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.0"
+  }
+}

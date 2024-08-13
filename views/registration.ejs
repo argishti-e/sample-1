@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+<body>
+
+<form id="registration">
+    <label>
+        <input type="text" name="firstName" placeholder="first Name"><br>
+        <span data-name="firstName"></span><br>
+    </label>
+    <label>
+        <input type="text" name="lastName" placeholder="last Name"><br>
+        <span data-name="lastName"></span><br>
+    </label>
+    <label>
+        <input type="email" name="email" placeholder="email"><br>
+        <span data-name="email"></span><br>
+    </label>
+    <label>
+        <input type="password" name="password" placeholder="password"><br>
+        <span data-name="password"></span><br>
+    </label>
+    <input type="submit">
+</form>
+
+
+<h2 id="message"></h2>
+<p id="message_2"></p>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/js/registration.js"></script>
+</body>
+</html>
